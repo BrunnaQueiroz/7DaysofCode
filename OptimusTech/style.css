@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+header, .logo, .paginas, .botoes{
+    display: flex;    
+    font-family: 'Inter', sans-serif;           
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 112px;
+}
+
+.logo {
+    align-items: center;
+    gap: 8px;
+}
+
+.paginas {
+    font-size: 16px;
+    color: #667085;    
+    gap: 32px;
+}
+
+.botoes {
+    gap: 30px;
+    align-items: center;
+    font-size: 16px;
+}
+
+#optimus {
+    font-size: 18px;
+    color: #3A404E;
+}
+
+#entrar {
+    color: #667085;
+}
+
+#cadastro {
+    background-color: #8E2424;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+}
+
+.aboutUs {
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 411px 203px 426px;    
+}
+
+#aboutUs-p {    
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 24px;        
+}
+
+
+h1 {
+    width: 600px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #101828;
+    text-align: center;
+}
+
+#explicacao {
+    width: 790px;
+    font-size: 20px;
+    padding-top: 36px;
+    text-align: center;
+    color: #667085;   
+    margin: 0%; 
+}
+
+.colorRed {
+    color: #8E2424;
+}
