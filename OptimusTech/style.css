@@ -81,6 +81,19 @@ h1 {
     margin: 0%; 
 }
 
+.metricas {
+    display: flex;
+    justify-content: space-between;   
+    gap: 32px; 
+    padding: 112px;
+}
+
+.first, .second, .third, .fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .number {
     font: 600 60px inter, 'sans serif';    
     color: #8E2424;    
@@ -93,7 +106,7 @@ h2 {
 
 .p-metricas {
     font: 400 16px inter, 'sans serif';
-    color: #667085;
+    color: #667085;    
 }
 
 .colorRed {
