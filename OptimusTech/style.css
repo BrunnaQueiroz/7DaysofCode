@@ -66,9 +66,8 @@ header {
 
 
 h1 {
+    font: 600 44px inter, 'sans serif';   
     width: 600px;
-    font-weight: 600;
-    font-size: 48px;
     color: #101828;
     text-align: center;
 }
@@ -82,6 +81,22 @@ h1 {
     margin: 0%; 
 }
 
+.number {
+    font: 600 60px inter, 'sans serif';    
+    color: #8E2424;    
+}
+
+h2 {
+    font: 500 18px inter, 'sans serif';
+    color: #101828;
+}
+
+.p-metricas {
+    font: 400 16px inter, 'sans serif';
+    color: #667085;
+}
+
 .colorRed {
     color: #8E2424;
 }
+
