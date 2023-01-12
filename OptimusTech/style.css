@@ -50,12 +50,12 @@ header {
     color: white;
 }
 
-.aboutUs {
-    height: 407px;
+.aboutUs {    
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 411px 203px 426px;    
+    padding: 96px 411px 203px 426px;        
+    /*background-color: aqua; */
 }
 
 #aboutUs-span {    
@@ -77,36 +77,36 @@ h1 {
     font-size: 20px;
     padding-top: 36px;
     text-align: center;
-    color: #667085;   
-    margin: 0%; 
+    color: #667085;              
 }
 
 .metricas {
     display: flex;
     justify-content: space-between;   
     gap: 32px; 
-    padding: 112px;
+    padding: 0px 107px 0px 107px;
 }
 
 .first, .second, .third, .fourth {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: column;    
 }
 
 .number {
     font: 600 60px inter, 'sans serif';    
     color: #8E2424;    
+    padding-bottom: 12px;
 }
 
 h2 {
     font: 500 18px inter, 'sans serif';
-    color: #101828;
+    color: #101828;    
+    padding-bottom: 8px;
 }
 
 .p-metricas {
     font: 400 16px inter, 'sans serif';
-    color: #667085;    
+    color: #667085;         
 }
 
 .colorRed {
