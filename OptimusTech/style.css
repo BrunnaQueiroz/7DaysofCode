@@ -113,3 +113,18 @@ h2 {
     color: #8E2424;
 }
 
+#vagas {
+    font: 500 14px inter, 'sans serif';    
+    padding: 4px 12px;
+    border-radius: 16px;
+    background-color: rgba(142, 36, 36, 0.05);    
+}
+
+#searching {
+    font-size: 36px;
+}
+
+.p-talentos {
+    font: 400 20px inter, 'sans serif';
+    color: #667085;
+}
