@@ -138,4 +138,8 @@ h2 {
     color: #8E2424;
 }
 
-
+@media (max-width: 790px) {
+    .metricas {
+        flex-direction: column;   
+    }
+}
