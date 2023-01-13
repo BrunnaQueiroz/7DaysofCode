@@ -109,13 +109,17 @@ h2 {
     color: #667085;         
 }
 
-.colorRed {
-    color: #8E2424;
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
-#vagas {
+#vagas {    
     font: 500 14px inter, 'sans serif';    
     padding: 4px 12px;
+    margin-top: 200px;    
     border-radius: 16px;
     background-color: rgba(142, 36, 36, 0.05);    
 }
@@ -127,4 +131,11 @@ h2 {
 .p-talentos {
     font: 400 20px inter, 'sans serif';
     color: #667085;
+    padding-bottom: 44px;
 }
+
+.colorRed {
+    color: #8E2424;
+}
+
+
